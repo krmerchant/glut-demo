@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 project(glut-demo)
-add_executable(glut-demo src/main.cpp)
+add_executable(glut-demo src/demo.cpp)
 
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
